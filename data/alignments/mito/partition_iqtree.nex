@@ -1,0 +1,11 @@
+#nexus
+
+begin sets;
+
+charset cox1 = 1-515;
+charset ND1 = 516-736;
+charset cox2 = 737-936;
+charset ND5 = 937-1414;
+charset CYTB = 1415-1769;
+
+end;
