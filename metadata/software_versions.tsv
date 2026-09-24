@@ -20,8 +20,8 @@ mitochondrial_assembly	NOVOPlasty	4.3.1	NOVOPlasty.pl	Mito mode; 12,000-50,000 b
 mitochondrial_annotation	MFannot	web service	NA	Manual cross-check
 mitochondrial_annotation	MITOS	web service	NA	Translation table 4
 alignment	MAFFT	7.505	mafft	Per-locus amino-acid alignment
-alignment_trimming	trimAl	TO CONFIRM	trimal	Default in code is -automated1; manuscript placeholder remains
-phylogeny_mito	IQ-TREE	3.0.1	iqtree3	MTZOA+F+R6; 1,000 SH-aLRT; 1,000 UFBoot; --bnni
-phylogeny_nuclear	IQ-TREE	2.2.2.7	iqtree2	MFP+MERGE edge-linked proportional partitions
+alignment_trimming	trimAl	1.5.2	trimal	-automated1 for the nuclear BUSCO loci; also used for the mitochondrial genes
+phylogeny_mito	IQ-TREE	2.2.2.7	iqtree2	MFP+MERGE edge-linked proportional partitions; 1,000 SH-aLRT; 1,000 UFBoot with -bnni
+phylogeny_nuclear	IQ-TREE	2.2.2.7	iqtree2	MFP+MERGE edge-linked proportional partitions; 1,000 SH-aLRT; 1,000 UFBoot
 domain_search	HMMER	3.3.2	hmmsearch	Pfam --cut_ga
 gene_order	clinker	0.0.31	clinker	Original visualization; Python reproduction is also provided

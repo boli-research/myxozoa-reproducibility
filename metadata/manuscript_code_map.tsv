@@ -18,7 +18,7 @@ Alignment, trimming and concatenation	scripts/03_phylogenetics/align_trim_concat
 Mitochondrial ML tree	scripts/03_phylogenetics/run_mito_phylogeny.sh	IQ-TREE files	mitochondrial supermatrix
 BUSCO locus selection	scripts/03_phylogenetics/collect_busco_orthologs.py	BUSCO loci present in at least 70% of taxa	BUSCO single-copy directories
 Nuclear ML tree and concordance	scripts/03_phylogenetics/run_nuclear_phylogeny.sh	partitioned tree, gCF and sCF	nuclear supermatrix and loci
-18S tree	scripts/03_phylogenetics/run_18s_phylogeny.sh	independent functional-survey tree	18S FASTA
+Fig. 7 ordering tree	pruned from the nuclear ML tree	18-taxon Newick tree	nuclear_partitioned.treefile
 Mitochondrial-function similarity search	scripts/04_functional_genes/run_mito_similarity_searches.sh	BLASTP and TBLASTN tables	reference proteins, target proteomes and genomes
 Mitochondrial-function state classification	scripts/04_functional_genes/classify_mito_states.py	48-gene state and evidence tables	BLASTP/TBLASTN tables
 Target Pfam library	scripts/04_functional_genes/extract_target_hmms.py	reduced HMM library and mapping	Pfam-A and sector mapping
