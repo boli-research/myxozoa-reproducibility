@@ -1,0 +1,35 @@
+# macOS / system files
+.DS_Store
+Thumbs.db
+
+# Raw sequencing and large alignment files (see metadata/accessions.tsv for NCBI records)
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Local and temporary material
+private/
+local_data/
+raw_data/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Language/tool caches
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Ruserdata
+.ipynb_checkpoints/
+.venv/
+work/
+results/

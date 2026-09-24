@@ -1,0 +1,27 @@
+stage	software	manuscript_version	command_checked	notes
+read_qc	fastp	0.23.4	fastp	Default settings plus manuscript thresholds
+decontamination	Bowtie2	2.2.4	bowtie2	Sensitive end-to-end alignment
+decontamination	BLAST+	not stated	blastn	Residual contaminant search
+nuclear_assembly	SPAdes	3.12.0+	spades.py	Default paired-end assembly
+gap_filling	GapFiller	1.12	GapFiller.pl	-l 149 -t 4
+deduplication	CD-HIT	2.2.0 as written	cd-hit-est	Version should be rechecked; parameters are retained
+assembly_qc	QUAST	5.2.0	quast.py	Assembly continuity and base composition
+completeness	BUSCO	5.3.2	busco	eukaryota_odb10
+repeat_annotation	RepeatModeler	2.0	RepeatModeler	Species-specific repeat library
+repeat_annotation	RepeatMasker	4.0.5	RepeatMasker	Custom library plus Repbase v18.0
+gene_prediction	AUGUSTUS	3.2.3	augustus	Ab initio prediction
+gene_prediction	Exonerate	2.0	exonerate	Protein homology prediction
+rna_alignment	HISAT2	2.1.0	hisat2	Transcript evidence
+transcript_assembly	StringTie	1.3.3	stringtie	Transcript evidence
+coding_prediction	TransDecoder	5.3.0	TransDecoder.LongOrfs	Transcript coding regions
+gene_integration	EVidenceModeler	1.1.0	EvidenceModeler	Weights transcript=10 protein=5 ab_initio=1
+gene_update	PASA	not stated	Launch_PASA_pipeline.pl	UTR and alternative-splicing update
+mitochondrial_assembly	NOVOPlasty	4.3.1	NOVOPlasty.pl	Mito mode; 12,000-50,000 bp
+mitochondrial_annotation	MFannot	web service	NA	Manual cross-check
+mitochondrial_annotation	MITOS	web service	NA	Translation table 4
+alignment	MAFFT	7.505	mafft	Per-locus amino-acid alignment
+alignment_trimming	trimAl	TO CONFIRM	trimal	Default in code is -automated1; manuscript placeholder remains
+phylogeny_mito	IQ-TREE	3.0.1	iqtree3	MTZOA+F+R6; 1,000 SH-aLRT; 1,000 UFBoot; --bnni
+phylogeny_nuclear	IQ-TREE	2.2.2.7	iqtree2	MFP+MERGE edge-linked proportional partitions
+domain_search	HMMER	3.3.2	hmmsearch	Pfam --cut_ga
+gene_order	clinker	0.0.31	clinker	Original visualization; Python reproduction is also provided

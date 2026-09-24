@@ -1,0 +1,26 @@
+manuscript_analysis	primary_code	principal_output	public_input
+Read quality control and host/microbial filtering	scripts/01_genome_assembly_annotation/run_qc_assembly.sh	clean paired reads and SPAdes assembly	NCBI SRA reads plus host/microbial indexes
+Gap filling, deduplication and length filtering	scripts/01_genome_assembly_annotation/postprocess_assembly.sh	filtered nuclear assembly	clean reads and assembly
+Residual contaminant filtering	scripts/01_genome_assembly_annotation/filter_contaminants.py	decontaminated assembly and decision report	BLASTN hit table
+Assembly and BUSCO summary	scripts/01_genome_assembly_annotation/summarize_assemblies.py	Fig5_source_data.tsv	QUAST and BUSCO reports
+Repeat discovery and masking	scripts/01_genome_assembly_annotation/run_repeat_annotation.sh	repeat library and masked genome	assembly and licensed/public repeat library
+Gene prediction evidence	scripts/01_genome_assembly_annotation/run_gene_evidence.sh	ab initio, homology and transcript evidence	masked genome, public proteins and RNA reads
+EvidenceModeler integration	scripts/01_genome_assembly_annotation/build_evm_weights.py; scripts/01_genome_assembly_annotation/run_evm.sh	integrated gene models	converted evidence GFF3 files
+PASA update	scripts/01_genome_assembly_annotation/run_pasa_update.sh	updated gene annotation	PASA site configuration and transcript evidence
+Non-coding RNA annotation	scripts/01_genome_assembly_annotation/run_ncrna_annotation.sh	tRNA and Rfam hit tables	genome and Rfam reference database
+Mitochondrial assembly	scripts/02_mitogenome/run_novoplasty_triplicates.sh	three independent NOVOPlasty assemblies	clean paired reads and seed sequence
+Circular read support	scripts/02_mitogenome/validate_circular_read_support.sh	rotated-reference BAM and depth table	mitogenome and reads
+GC content and GC skew	scripts/02_mitogenome/sliding_gc.py	circular sliding-window table	mitogenome sequence
+ORF filtering and gene order	scripts/02_mitogenome/standardize_mito_features.py	standardized feature table	annotated GenBank record
+Clinker input preparation	scripts/02_mitogenome/filter_gbk_for_clinker_with_rrna_as_cds.py	clinker-ready GenBank files	annotated GenBank records
+Mitochondrial locus extraction	scripts/03_phylogenetics/extract_mito_genes.py	five per-gene protein FASTA files	annotated GenBank records
+Alignment, trimming and concatenation	scripts/03_phylogenetics/align_trim_concat.py	supermatrix and partition file	per-locus FASTA files
+Mitochondrial ML tree	scripts/03_phylogenetics/run_mito_phylogeny.sh	IQ-TREE files	mitochondrial supermatrix
+BUSCO locus selection	scripts/03_phylogenetics/collect_busco_orthologs.py	BUSCO loci present in at least 70% of taxa	BUSCO single-copy directories
+Nuclear ML tree and concordance	scripts/03_phylogenetics/run_nuclear_phylogeny.sh	partitioned tree, gCF and sCF	nuclear supermatrix and loci
+18S tree	scripts/03_phylogenetics/run_18s_phylogeny.sh	independent functional-survey tree	18S FASTA
+Mitochondrial-function similarity search	scripts/04_functional_genes/run_mito_similarity_searches.sh	BLASTP and TBLASTN tables	reference proteins, target proteomes and genomes
+Mitochondrial-function state classification	scripts/04_functional_genes/classify_mito_states.py	48-gene state and evidence tables	BLASTP/TBLASTN tables
+Target Pfam library	scripts/04_functional_genes/extract_target_hmms.py	reduced HMM library and mapping	Pfam-A and sector mapping
+Invasion/adhesion HMM search	scripts/04_functional_genes/run_hmmsearch.sh; scripts/04_functional_genes/parse_hmm_domains.py	30-sector presence and evidence tables	target HMMs and proteomes
+Figures 1-7	scripts/05_figures/fig1_sampling_map.py through fig7_coulson.py	SVG, PDF, TIFF and PNG figures	audited source TSV/GenBank/Newick inputs

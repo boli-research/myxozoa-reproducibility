@@ -1,0 +1,5 @@
+isolate	sample_id	species	habitat	host	host_assembly	read1	read2	rna_read1	rna_read2	assembly	proteins
+QD	QDLSDPC	Myxobolus episquamalis	marine	Mugil cephalus	GCF_022458985.1	/path/to/QD_R1.fastq.gz	/path/to/QD_R2.fastq.gz	/path/to/QD_RNA_R1.fastq.gz	/path/to/QD_RNA_R2.fastq.gz	/path/to/QD.genome.fna	/path/to/QD.proteins.faa
+XM	XMLSDPC	Myxobolus episquamalis	marine	Mugil cephalus	GCF_022458985.1	/path/to/XM_R1.fastq.gz	/path/to/XM_R2.fastq.gz	/path/to/XM_RNA_R1.fastq.gz	/path/to/XM_RNA_R2.fastq.gz	/path/to/XM.genome.fna	/path/to/XM.proteins.faa
+TZ	TZ-PI	Myxobolus pronini	freshwater	Carassius auratus	GCF_003368295.1	/path/to/TZ_R1.fastq.gz	/path/to/TZ_R2.fastq.gz	NA	NA	/path/to/TZ.genome.fna	/path/to/TZ.proteins.faa
+XY	XY-PI	Myxobolus pronini	freshwater	Carassius auratus	GCF_003368295.1	/path/to/XY_R1.fastq.gz	/path/to/XY_R2.fastq.gz	NA	NA	/path/to/XY.genome.fna	/path/to/XY.proteins.faa

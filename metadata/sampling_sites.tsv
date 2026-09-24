@@ -1,0 +1,5 @@
+panel	isolate	sample_id	species	habitat	host	parasitic_site	city	province	longitude_E	latitude_N
+B	QD	QDLSDPC	Myxobolus episquamalis	Marine	Mugil cephalus	Scales	Qingdao	Shandong	120.378900	36.300000
+C	XM	XMLSDPC	Myxobolus episquamalis	Marine	Mugil cephalus	Scales	Xiamen	Fujian	118.072500	24.453600
+D	XY	XY-PI	Myxobolus pronini	Freshwater	Carassius auratus	Gallbladder	Xinyang	Henan	114.127724	32.083216
+E	TZ	TZ-PI	Myxobolus pronini	Freshwater	Carassius auratus	Gallbladder	Taizhou	Zhejiang	121.403144	28.684703

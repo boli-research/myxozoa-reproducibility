@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use the code or data in this repository, please cite the associated manuscript and this repository."
+title: "Supplementary code and data for: Integrated mitochondrial and nuclear genomics reveals distinct evolutionary patterns in Myxozoa"
+type: dataset
+authors:
+  - family-names: Li
+    given-names: Haitao
+  - family-names: Chen
+    given-names: Xue
+  - family-names: Ji
+    given-names: Xinzi
+  - family-names: Xiong
+    given-names: Yalin
+  - family-names: Chen
+    given-names: Wei
+  - family-names: Zhao
+    given-names: Yuanjun
+  - family-names: Tan
+    given-names: Xiaoping
+  - family-names: Yang
+    given-names: Chengzhong
+version: 1.0.0
+license: MIT
+url: "https://github.com/boli-research/myxozoa-reproducibility"

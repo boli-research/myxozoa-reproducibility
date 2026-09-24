@@ -1,0 +1,8 @@
+#nexus
+begin sets;
+  charset cox1_ND1_cox2 = 1-515  516-736  737-936;
+  charset ND5_CYTB = 937-1414  1415-1769;
+  charpartition mymodels =
+    mtZOA+F+I+R5: cox1_ND1_cox2,
+    mtInv+F+R6: ND5_CYTB;
+end;

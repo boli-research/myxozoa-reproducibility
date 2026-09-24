@@ -1,0 +1,19 @@
+XY vs QD 18S rDNA pairwise alignment — methods & statistics
+=============================================================
+Alignment file : XYvsQD_alignment.fasta (this folder)
+Method         : Needleman-Wunsch global alignment (Biopython 1.86 PairwiseAligner)
+Scoring        : match +2 / mismatch -1 / gap open -5 / gap extend -0.5
+Sequences      : M. pronini XY (1899 bp) vs M. episquamalis QD OR621296.1 (1937 bp)
+                 (XY==TZ, QD==XM, verified identical within species)
+
+Alignment length            : 1995 columns
+Identical sites (matches)   : 1510
+Mismatches                  : 331
+Gap columns                 : 154  (XY gaps 96, QD gaps 58)
+
+Identity, gaps counted in denominator  : 1510/1995 = 75.69%
+Identity, gap columns excluded         : 1510/1841 = 82.02%
+
+Sensitivity check across 5 scoring schemes gave 75.7% +/- 1%
+(gaps counted). Report 75.7% (gaps counted) or 82.0% (gaps excluded)
+with the denominator and gap rule stated as above.
