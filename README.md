@@ -20,7 +20,7 @@ Raw sequencing reads, draft nuclear genome assemblies and other large datasets a
 
 ## Data availability
 
-- NCBI BioProjects: [PRJNA1377137](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1377137), [PRJNA1453518](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1453518)
+- NCBI BioProjects: [PRJNA1377137](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1377137)
 - Complete mitochondrial genomes (GenBank): `PX674009.1`, `PX674010.1`, `PZ514093.1`, `PZ514094.1`
 - SSU rDNA sequences (GenBank): `OR621296.1`, `PZ580198.1`, `PZ564097.1`, `PZ575193.1`
 
