@@ -1,0 +1,78 @@
+登录号-物种名对照表
+来源树文件: partitions.iqtree.txt.treefile
+物种名查询自 NCBI datasets (assembly) 数据库
+共 71 个叶节点: 组装登录号 66 个, 已有名称/样品编号 5 个
+
+标签                物种名
+-------------------------------------------------------
+GCA_000827895     Thelohanellus kitauei
+GCA_001407335     Kudoa iwatai
+GCA_001407235     Kudoa iwatai
+GCA_964275015     Kudoa sp. trachurus
+GCA_964304625     Kudoa neothunni
+GCA_001455295     Enteromyxum leei
+GCA_040938965     Ellipsomyxa sp. 115-BR2022
+GCA_040939035     Myxosporea sp. 108-BR2022
+GCA_918559645     Ceratonova shasta
+GCA_040938985     Ellipsomyxa sp. 70-BR2022
+GCA_003991215     Morbakka virulenta
+GCA_028566775     Tamoya ohboya
+GCA_008930755     Alatina alata
+GCA_024741275     Chironex yamaguchii
+GCA_039566865     Aurelia coerulea
+GCA_964019165     Mastigias papua
+GCA_964026355     Pseudorhiza aurosa
+GCA_963924455     Pelagia noctiluca
+GCA_029227915     Hydractinia symbiolongicarpus
+GCA_039566895     Turritopsis rubra
+GCA_032360805     Neoturris breviconis
+GCA_036873935     Stomotoca atra
+GCA_041430235     Physalia physalis
+GCA_032273505     Nanomia bijuga
+GCA_040893725     Cladonema radiatum
+GCA_965112645     Millepora alcicornis
+GCA_902728285     Clytia hemisphaerica
+GCA_032356525     Eutonina indicans
+GCA_038396675     Hydra vulgaris
+GCA_035046665     Euphysa ruthae
+GCA_963930725     Candelabrum cocksii
+GCA_003687565     Craspedacusta sowerbii
+GCA_916610825     Haliclystus octoradiatus
+GCA_025505365     Haliclystus inabai
+GCA_900245855     Calvadosia cruxmelitensis
+GCA_013753865     Acropora millepora
+GCF_013753865     Acropora millepora
+GCA_964273435     Acropora austera
+GCA_036669915     Pocillopora verrucosa
+GCA_964656595     Madracis senaria
+GCA_947652115     Blastomussa wellsi
+GCA_964035705     Porites rus
+GCA_973946955     Porites lobata
+GCA_977035595     Tubastraea coccinea
+GCA_965112835     Stephanocoenia intersepta
+GCA_041682505     Cavernularia obesa
+GCA_965118255     Veretillum cynomorium
+GCA_964659595     Pteroeides griseum
+GCA_964204845     Callogorgia gracilis
+GCA_964265095     Corallium rubrum
+GCA_963855995     Muricea muricata
+GCA_964194065     Gorgonia ventalina
+GCA_964658295     Leptogorgia sarmentosa
+GCA_964289765     Eunicella verrucosa
+GCA_965177985     Eunicella cavolini
+GCA_049114765     Ephydatia muelleri
+GCA_949361645     Spongilla lacustris
+GCA_963681505     Eunapius fragilis
+GCA_965644515     Weberella bursa
+GCA_947172415     Chondrosia reniformis
+GCA_032361285     Aequorea victoria
+P_hydriforme      P_hydriforme  (自测序样品/已有名称)
+GCA_001455285     Sphaeromyxa zaharoni
+Mepisquamalis_QD  Mepisquamalis_QD  (自测序样品/已有名称)
+Mepisquamalis_XM  Mepisquamalis_XM  (自测序样品/已有名称)
+GCA_009887335     Henneguya salminicola
+GCA_010108815     Myxobolus squamalis
+GCA_022478855     Myxobolus honghuensis
+GCA_041296195     Myxobolus sp. r MT-2024
+Mpronini_TZ       Mpronini_TZ  (自测序样品/已有名称)
+Mpronini_XY       Mpronini_XY  (自测序样品/已有名称)

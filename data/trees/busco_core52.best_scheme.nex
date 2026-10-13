@@ -1,6 +1,0 @@
-#nexus
-begin sets;
-  charset p1_618516at33208 = 1-168;
-  charpartition mymodels =
-    Q.insect+I+G4: p1_618516at33208;
-end;

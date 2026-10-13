@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate Fig. 7: 18S tree and Coulson-style functional recovery matrices."""
+"""Generate Fig. 7: pruned nuclear phylogeny and Coulson-style functional recovery matrices."""
 
 from __future__ import annotations
 

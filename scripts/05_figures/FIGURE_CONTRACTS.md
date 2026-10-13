@@ -53,6 +53,6 @@ All figures use Python/Matplotlib exclusively and export editable SVG/PDF plus 6
 
 - Core conclusion: Nuclear functional-gene recovery is pathway-specific, with broad OXPHOS reduction but recurrent recovery of several host-interaction categories.
 - Archetype: asymmetric tree plus Coulson-style state matrices.
-- Evidence: independent 18S tree, 48-gene mitochondrial-metabolism matrix and 30-sector invasion/adhesion matrix.
+- Evidence: nuclear phylogenomic tree pruned to the 18 surveyed taxa, 48-gene mitochondrial-metabolism matrix and 30-sector invasion/adhesion matrix.
 - Source data: complete evidence and state matrices from the similarity/HMM scripts.
 - Reviewer risk: fragmented assemblies, unequal transcript support and interpretation of “not recovered” as absence.
