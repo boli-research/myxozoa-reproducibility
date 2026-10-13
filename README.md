@@ -11,8 +11,8 @@ The study integrates complete mitochondrial genomes and draft nuclear genomes of
 - Analysis scripts for every computational step described in the manuscript, organised as small command-line programs (`scripts/`).
 - Curated metadata: isolates, NCBI accessions, sampling sites, software versions and the manuscript-to-script mapping (`metadata/`).
 - Small key datasets (`data/`): 18S rDNA sequences, assembled mitochondrial genomes, the mitochondrial and nuclear supermatrices with partition files, the 76 trimmed BUSCO locus alignments, final phylogenetic trees (including gene/site concordance factors), gene-order GenBank files, and BUSCO and QUAST summaries.
-- Final manuscript figures (Figs. 1–7) and supplementary figures (Figs. S1–S3) as submitted (`figures/`).
-- Supplementary Tables S1–S4 (`supplementary/tables/`).
+- Final manuscript figures (Figs. 1–7) and the graphical abstract as submitted (`figures/`).
+- Supplementary Figures S1–S3 and Supplementary Tables S1–S4, side by side for easy review (`supplementary/`).
 - Representative light-micrograph images of the two species (`images/`).
 - Unit/smoke tests for the core scripts (`tests/`).
 
@@ -45,8 +45,8 @@ data/              Small key datasets (see below)
   trees/           Final ML trees, concordance factors and partition schemes
   gene_order/      Clinker-ready annotated GenBank files for the gene-order comparison
   busco/           BUSCO summary table, 17 short summaries and QUAST report
-figures/           Final main and supplementary figures as submitted
-supplementary/     Supplementary Tables S1–S4
+figures/           Final main figures and graphical abstract as submitted
+supplementary/     Supplementary Figures S1–S3 and Tables S1–S4
 images/            Representative light-micrograph images
 environment/       Python dependency list
 tests/             Deterministic unit and smoke tests
